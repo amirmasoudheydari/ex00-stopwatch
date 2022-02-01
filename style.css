@@ -16,5 +16,19 @@
 }
 .record-row{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+}
+
+.d-n{
+    display: none;
+}
+
+li{
+    list-style: decimal;
+    margin-top: 10px;
+
+}
+
+li span:nth-child(1){
+    margin-right: 125px;
 }
